@@ -1,0 +1,12 @@
+{
+    "name": "aethletic/botify-dev",
+    "description": "Telegram BOT Api Library",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Botify\\": "src/"
+        }
+    }
+}
