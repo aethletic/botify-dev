@@ -9,7 +9,7 @@ class Collection extends LaravelCollection
 {
     public function get($key, $default = null)
     {
-        return data_get($this->items, $key, $default);
+        return collect(data_get($this->items, $key, $default))->filter();
     }
 
     public function getFirst($key, $default = null)
